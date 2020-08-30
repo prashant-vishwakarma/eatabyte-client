@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/eatabyte-client/precache-manifest.0d4f9dcc6cc201464057c53d57409e9c.js"
+  "/eatabyte-client/precache-manifest.42d8bcea412514a29a9625895db46377.js"
 );
 
 self.addEventListener('message', (event) => {
