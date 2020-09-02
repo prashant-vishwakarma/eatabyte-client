@@ -1,16 +1,10 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+
 .App {
   text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
 }
 
 .App-header {
@@ -35,4 +29,32 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.sidebar {
+  height: 100vh;
+  width: 20%;
+  background-color: #282c34;
+  overflow-x: hidden;
+  position: fixed;
+}
+
+.sidebar > a {
+  display: block;
+  padding: 5%;
+  color: white;
+  text-decoration: none;
+}
+.sidebar > a:hover {
+  background-color: #404244;
+}
+
+.main {
+  display: flex;
+  flex-direction: row;
+}
+
+.content-area {
+  margin-left: 20%;
+  width: 100%;
 }
